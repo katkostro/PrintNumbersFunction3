@@ -28,7 +28,7 @@ jobs:
       - name: 'Resolve Project Dependencies Using Dotnet'
         shell: pwsh
         run: |
-          pushd 'HttpTrigger1'
+          pushd 'PrintNumbersFunction3'
           dotnet build --configuration Release --output ./output
           popd
         #run: |
